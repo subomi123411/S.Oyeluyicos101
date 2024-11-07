@@ -7,4 +7,4 @@ fn main(){
 	println!("amount is {}", a);
 	let si = a - p;
 	println!("simple interest {}", si);
-}
+} 
