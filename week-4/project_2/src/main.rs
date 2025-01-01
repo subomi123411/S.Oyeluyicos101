@@ -1,13 +1,18 @@
 use std::io;
+
 fn main() {
+    
     let mut age_input = String::new();
     let mut experience_input = String::new();
+    
     println!("Enter the age of the employee:");
     io::stdin().read_line(&mut age_input).expect("Failed to read line");
     let age: f32 = age_input.trim().parse().expect("Please enter a valid number");
+    
     println!("Enter the years of experience of the employee:");
     io::stdin().read_line(&mut experience_input).expect("Failed to read line");
     let experience: f32 = experience_input.trim().parse().expect("Please enter a valid number");
+    
     let incentive = calculate_incentive(age, experience);
     println!("The annual incentive for the employee is: {}", incentive);
 }

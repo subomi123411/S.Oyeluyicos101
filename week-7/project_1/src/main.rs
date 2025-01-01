@@ -1,6 +1,6 @@
 use std::io;
 
- fn main() {
+fn main() {
     println!("What would you like to calculate?");
     println!("
               a = Area of Trapezium  
