@@ -43,7 +43,7 @@ fn main() {
 
     let total_dell = dell.total(quantity);
     println!("The total cost for {} laptops is {}", dell.brand,total_dell);
-
+    
     let total = total_hp + total_ibm + total_toshiba + total_dell;
 
     println!("The total cost for 3 laptops for each brand is: {}", total);
